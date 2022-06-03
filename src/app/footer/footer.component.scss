@@ -1,0 +1,62 @@
+/*-------------
+GENERAL
+---------------*/
+
+.section-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .img {
+    width: 40px;
+    margin-top: -30px;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-top: 25px;
+  }
+  
+
+/*-------------
+FOOTER SECTION
+---------------*/
+
+#footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #footer p {
+    display: inline-flex;
+    margin-left: 5px;
+  }
+  
+  #footer a {
+    font-weight: 500;
+    color: #343a40;
+  }
+  
+  #footer .contact ul {
+    margin-top: 10px;
+  }
+  
+  #footer ul {
+    list-style-type: none;
+    padding: inherit;
+    margin-top: 45px;
+  }
+  
+  #footer li {
+    margin-bottom: 5px;
+  }
+  
+  /*-------------
+  COPYRIGHT SECTION
+  ---------------*/
+  
+  #copyright .separator {
+    transform: rotate(180deg);
+  }
+  

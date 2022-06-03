@@ -1,0 +1,61 @@
+/*-------------
+GENERAL SECTION
+---------------*/
+
+
+p {
+  font-weight: 400;
+  font-size: small;
+  color: #0a1d37;
+}
+
+.section-item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+// .card {
+//   margin-bottom: 5px;
+//   background-color: transparent;
+// }
+
+.accordion-button{
+  font-size: medium;
+  border-style: 1px solid #f4f4f4;
+	background-color: transparent !important;
+	// box-shadow: 0 0.25em 7px 0px #f4f4f4;
+  margin-top: 25px
+	
+}
+
+/*-------------
+PRE PURCHASE SECTION
+---------------*/
+
+#pre-purchase,#shipping {
+  background-color: #fff;
+}
+
+/*-------------
+POST PURCHASE SECTION
+---------------*/
+
+#post-purchase{
+  background-color: #f4f4f4;
+}
+
+#post-purchase .accordion-item {
+  background-color: #fff;
+}
+
+
+
+/*-------------
+FAQ SECTION
+---------------*/
+
+@media only screen and (max-device-width: 576px) {
+  .card-header {
+    flex-wrap: nowrap;
+  }
+}

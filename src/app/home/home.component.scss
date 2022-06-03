@@ -1,0 +1,121 @@
+/*-------------
+GENERAL
+---------------*/
+
+.section-item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img {
+  width: 40px;
+  margin-top: -30px;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.svg-icon{
+  cursor: pointer;
+}
+
+/*-------------
+HOME SECTION
+---------------*/
+
+#home .cart {
+  align-items: center;
+  //  justify-content: start;
+  display: inline-flex;
+}
+
+#home .cart-icon {
+  filter: invert(5%) sepia(64%) saturate(4430%) hue-rotate(217deg)
+    brightness(83%) contrast(92%);
+}
+
+#home .btn-dark {
+  background-color: var(--color-primary);
+}
+
+#home .searchbox {
+  border: 1px solid var(--color-primary);
+  box-sizing: border-box;
+}
+
+/*-------------
+CATEGORIES SECTION
+---------------*/
+
+#categories {
+  border: 1px solid silver;
+  box-sizing: border-box;
+}
+
+#categories h5 {
+  color: #0e2039;
+}
+
+#categories ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.category-list {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+}
+
+h5,
+a {
+  margin: auto;
+}
+
+/*-------------
+LAYOUT SECTION
+---------------*/
+
+#layout h6 {
+  font-weight: 400;
+}
+
+#layout {
+  background-color: #efefef;
+}
+
+/*-------------
+HEADSET SECTION
+---------------*/
+
+#headsets .row {
+  background-color: #0e2039;
+}
+
+#headsets .btn {
+  color: var(--color-primary);
+}
+
+.headset {
+  background-size: auto;
+}
+
+/*-------------
+SERVICES SECTION
+---------------*/
+
+#services .row {
+  background-color: var(--color-primary);
+}
+
+#services p,
+h5 {
+  color: #efefef;
+}
+
+#services .col-3 {
+  margin: 35px 0;
+  align-items: end;
+}

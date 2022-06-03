@@ -1,0 +1,39 @@
+/*-------------
+  NAVBAR SECTION
+  ---------------*/
+
+#navbar{
+    background-color: #0a1d37;
+  }
+  
+  #navbarNav a {
+    color: #fff;
+    font-size: small;
+    // margin: 0 5px 0 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+  }
+  
+  #navbarNav .nav-link {
+    padding: 0px 3px;
+    font-size: medium;
+  }
+
+
+  
+  .socials {
+    display: inline-flex;
+  }
+  
+  .modal-body p{
+   display: inline-block;
+  }
+  
+  .modal-body ul{
+     list-style: none; 
+     padding: inherit;
+  }
+
+  
+  
