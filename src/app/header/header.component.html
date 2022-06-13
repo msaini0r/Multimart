@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg text-white" style="background-color: #0a1d37;">
     <div class="container">
-        <h6 class="text-white d-none d-lg-block " style="margin: 0; font-weight: 500;">Free Shipping On Orders Above $150</h6>
-        <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="100%" fill="currentColor" class="bi bi-bag mb-2 d-lg-none"
-            style="color: #fff;" viewBox="0 0 16 16">
+        <h6 class="text-white d-none d-lg-block " style="margin: 0; font-weight: 500;">Free Shipping On Orders Above
+            ₹500</h6>
+        <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="100%" fill="currentColor"
+            class="bi bi-bag mb-2 d-lg-none" style="color: #fff;" viewBox="0 0 16 16">
             <path
                 d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
         </svg>
@@ -42,81 +43,7 @@
                     <a class="nav-link ms-1" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#myModal">
                         Contact
                     </a>
-                    <div class="modal" tabindex="-1" id="myModal">
-                        <div class="modal-dialog modal-lg modal-dialog-centered" style="width: 1024px; ">
-                            <div class="modal-content">
-                                <div class="modal-header ">
-                                    <h2>Contact US</h2>
-                                    <div class="btn btn-sm btn-icon btn-active-color-dark" data-bs-dismiss="modal">
-                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                        <span class="svg-icon svg-icon-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none">
-                                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1"
-                                                    transform="rotate(-45 6 17.3137)" fill="currentColor"></rect>
-                                                <rect x="7.41422" y="6" width="16" height="2" rx="1"
-                                                    transform="rotate(45 7.41422 6)" fill="currentColor"></rect>
-                                            </svg>
-                                        </span>
-                                        <!--end::Svg Icon-->
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-6 text-start text-dark">
-                                                <div>
-                                                    <h3>Get a Quote</h3>
-                                                    <p >Fill up the form and our Team will get
-                                                        back to you with in 24 hours.</p>
-                                                </div>
-                                                <div class="contact align-items-end  mt-10">
-                                                    <ul>
-                                                        <li>
-                                                            <i class="bi bi-geo-alt fs-1 me-2"></i>
-                                                            <p>180-A, New Delhi, India</p>
-                                                        </li>
-                                                        <li> <i class="bi bi-telephone fs-1 me-2"></i>
-                                                            <p>Phone: 01941-801543</p>
-                                                        </li>
-                                                        <li> <i class="bi bi-envelope fs-1 me-2"></i>
-                                                            <p>Fax: 099 044 6622</p>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-6 text-muted">
-                                                <!--begin::Input group-->
-                                                <div class="form-floating mb-7 mt-5">
-                                                    <input type="name" class="form-control required" id="floatingInput1"
-                                                        placeholder="name@example.com" />
-                                                    <label for="floatingInput1">First Name</label>
-                                                </div>
-                                                <!--end::Input group-->
-                                                <!--begin::Input group-->
-                                                <div class="form-floating mb-7">
-                                                    <input type="name" class="form-control" id="floatingInput1"
-                                                        placeholder="name@example.com" />
-                                                    <label for="floatingInput1">Email</label>
-                                                </div>
-                                                <!--end::Input group-->
-                                                <!--begin::label-->
-                                                <!-- <label class="form-label">Message</label> -->
-                                                <textarea class="form-control" id="kt_docs_maxlength_textarea"
-                                                    maxlength="300" placeholder="" rows="6"></textarea>
-                                                <!--end::label-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class=" modal-footer">
-                                    <button type="button" class="btn btn-light-dark"
-                                        data-bs-dismiss="modal">Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End.Modal-->
+                    <app-contact-form></app-contact-form>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link separator border-gray-600 my-3"></a>
