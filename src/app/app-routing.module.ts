@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { CartComponent } from './cart/cart.component';
 import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
+import { ShopComponent } from './shop/shop.component';
 // import { AuthGuard } from './modules/auth/services/auth.guard';
 
 export const routes: Routes = [
@@ -20,8 +21,12 @@ export const routes: Routes = [
     component: AboutComponent,
   },
   {
-    path: 'Faq',
+    path: 'faq',
     component: FaqComponent,
+  },
+  {
+    path: 'shop',
+    component: ShopComponent,
   },
   {
     path: '',

@@ -22,6 +22,7 @@ import { FaqComponent } from './faq/faq.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ShopComponent } from './shop/shop.component';
 // #fake-end#
 
 function appInitializer(authService: AuthService) {
@@ -44,6 +45,7 @@ function appInitializer(authService: AuthService) {
     FooterComponent,
     HeaderComponent,
     ContactFormComponent,
+    ShopComponent,
   ],
   imports: [
     BrowserModule,
