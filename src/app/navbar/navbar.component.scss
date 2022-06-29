@@ -1,25 +1,42 @@
-/*-------------
-  NAV SECTION
-  ---------------*/
-
-#navbar{
-  background-color: #0a1d37;
+.navbar{
+  background: #0a1d37 !important;
+  padding: 15px 0;
+}
+.btn{
+ background-color: #0b5ed7 !important;
 }
 
-#navbarNav a {
-  color: #fff;
-  font-size: small;
-  // margin: 0 5px 0 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  cursor: pointer;
+.btn:hover{
+  background-color: #ff7294 !important;
 }
 
-#navbarNav .nav-link {
-  padding: 0px 3px;
+.navbar-brand {
+font-size: x-large;
+}
+
+.navbar-collapse {
+justify-content: end;
+}
+
+.nav-link {
+  float: right !important;
+  font-weight: 500;
   font-size: medium;
+  color:  #fff !important;
+  margin: 0 10px 0 10px;
 }
 
-.socials {
-  display: inline-flex;
+.nav-link:hover{
+  color: #0b5ed7 !important;
+}
+
+@media screen and (max-width: 991px) {
+.bi-bag{
+  width: 10%;
+}
+
+  .btn{
+      display: none;
+   }
+
 }

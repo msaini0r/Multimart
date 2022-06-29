@@ -1,18 +1,21 @@
-<app-header></app-header>
+<app-navbar></app-navbar>
 <section id="home" class="search">
-    <div class="container-fluid  ">
+    <div class="container ">
         <div class="row">
-            <div class="col-3 text-center">
-                <img class="img me-3" src="assets/media/Images/bag4.png" alt="">
-                <div class="logo">
+            <div class="col-2 text-center" style="margin: auto;">
+                <div>
+                    <h3 class="text-uppercase mt-4" style="color: #0a1d37;">Login/Register</h3>
+                </div>
+                <!-- <img class="img me-3" src="assets/media/Images/bag4.png" alt=""> -->
+                <!-- <div class="logo">
                     <h2 style="color: #0a1d37;">Multimart</h2>
                     <h6 class="text-gray-800 text-start">Since 1977</h6>
-                </div>
+                </div> -->
             </div>
             <!--END.column-->
-            <div class="col-6 text-center search">
-                <div class="mt-7 px-10">
-                    <div class="rounded d-flex flex-column flex-lg-row align-items-lg-center bg-white">
+            <div class="col-8 text-center search">
+                <div class="my-5">
+                    <div class="rounded d-flex flex-column flex-lg-row align-items-lg-center bg-white" >
                         <!--begin::Row-->
                         <div class="row flex-grow-1 mb-5 mb-lg-0 searchbox">
                             <!--begin::Col-->
@@ -45,14 +48,14 @@
                 </div>
             </div>
             <!--END.column-->
-            <div class="col-3 cart justify-content-center">
+            <div class="col-2 cart justify-content-center">
                 <div>
-                    <h5 href="#" class="text-uppercase mt-2" style="color: #0a1d37;">Login/Register</h5>
+                    <h2 class=" lead-3 mt-2" style="color: #0a1d37;" routerLink="/cart">Cart</h2>
                 </div>
                 <div routerLink="/cart" class="cart-icon">
                     <!--begin::Svg Icon | path: assets/media/icons/duotune/ecommerce/ecm001.svg-->
                     <span class="svg-icon svg-icon-dark svg-icon-2hx mx-2 mb-3"><svg xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            width="20" height="20" viewBox="0 0 24 24" fill="none">
                             <path opacity="0.3"
                                 d="M18.041 22.041C18.5932 22.041 19.041 21.5932 19.041 21.041C19.041 20.4887 18.5932 20.041 18.041 20.041C17.4887 20.041 17.041 20.4887 17.041 21.041C17.041 21.5932 17.4887 22.041 18.041 22.041Z"
                                 fill="black" />
@@ -64,16 +67,6 @@
                                 fill="black" />
                             <path
                                 d="M19.041 20.041H5.04096C4.74096 20.041 4.34095 19.841 4.14095 19.541C3.94095 19.241 3.94095 18.841 4.14095 18.541L6.04096 14.841L4.14095 4.64095L2.54096 3.84096C2.04096 3.64096 1.84095 3.04097 2.14095 2.54097C2.34095 2.04097 2.94096 1.84095 3.44096 2.14095L5.44096 3.14095C5.74096 3.24095 5.94096 3.54096 5.94096 3.84096L7.94096 14.841C7.94096 15.041 7.94095 15.241 7.84095 15.441L6.54096 18.041H19.041C19.641 18.041 20.041 18.441 20.041 19.041C20.041 19.641 19.641 20.041 19.041 20.041Z"
-                                fill="black" />
-                        </svg></span>
-                    <!--end::Svg Icon-->
-                </div>
-                <div class="cart-icon">
-                    <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen030.svg-->
-                    <span class="svg-icon svg-icon-dark svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                            height="24" viewBox="0 0 24 24" fill="none">
-                            <path
-                                d="M18.3721 4.65439C17.6415 4.23815 16.8052 4 15.9142 4C14.3444 4 12.9339 4.73924 12.003 5.89633C11.0657 4.73913 9.66 4 8.08626 4C7.19611 4 6.35789 4.23746 5.62804 4.65439C4.06148 5.54462 3 7.26056 3 9.24232C3 9.81001 3.08941 10.3491 3.25153 10.8593C4.12155 14.9013 9.69287 20 12.0034 20C14.2502 20 19.875 14.9013 20.7488 10.8593C20.9109 10.3491 21 9.81001 21 9.24232C21.0007 7.26056 19.9383 5.54462 18.3721 4.65439Z"
                                 fill="black" />
                         </svg></span>
                     <!--end::Svg Icon-->
