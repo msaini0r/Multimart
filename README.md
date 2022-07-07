@@ -1,10 +1,47 @@
 # Multimart
 
-You can checkout this project live on this link - <a href="https://multimart-d44bd.firebaseapp.com/home">⚡ Link ⚡</a> 
+## You can checkout this project live on this link - <a href="https://multimart-d44bd.firebaseapp.com/home">⚡ Link ⚡</a> 
+<!-- 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2. -->
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
-## Development server
+
+### Important: If you don't have angular installed in your pc then install is using
+
+```properties
+npm install -g @angular/cli
+``` 
+# Steps to setup this project.
+
+### 1) Clone this repository in your pc. Using the following command in terminal
+
+```properties
+git clone https://github.com/msaini0r/Multimart.git
+``` 
+
+### 2) Open this project in your code editor, run the following command in your VS code terminal<br>(make sure you have node.js installed before using this below command)
+
+```properties
+npm install -- force
+``` 
+
+### 3) Once the project dependencies is installed properply. Use this command to run the project
+
+```properties
+npm start
+``` 
+#### or 
+```properties
+ng serve
+``` 
+### You can see your project at this link in your browser
+
+```properties
+http://localhost:4200/
+``` 
+
+
+<!-- ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -26,4 +63,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page. -->
