@@ -1,23 +1,6 @@
-<script>
-    const button = document.getElementById('kt_docs_sweetalert_basic');
-
-    button.addEventListener('click', e => {
-        e.preventDefault();
-
-        Swal.fire({
-            text: "Here's a basic example of SweetAlert!",
-            icon: "success",
-            buttonsStyling: false,
-            confirmButtonText: "Ok, got it!",
-            customClass: {
-                confirmButton: "btn btn-primary"
-            }
-        });
-    });
-</script>
 <form action="https://formspree.io/f/xayvkprb" method="post">
-    <div class="modal" tabindex="-1" id="myModal">
-        <div class="modal-dialog modal-lg modal-dialog-centered" style="width: 1024px; ">
+    <div class="modal sm-none" tabindex="-1" id="myModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered" style="width: auto;">
             <div class="modal-content">
                 <div class="modal-header ">
                     <h2>Contact US</h2>
@@ -38,13 +21,13 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="row text-start text-dark">
-                            <div class="col-6">
+                            <div class="col-md-6 col-sm-12 ">
                                 <div>
                                     <h3>Get a Quote</h3>
                                     <p class="text-dark">Fill up the form and our Team will get
                                         back to you with in 24 hours.</p>
                                 </div>
-                                <div class="contact align-items-end mt-10">
+                                <div class="contact d-none d-md-block align-items-end mt-10 d-xs-none">
                                     <ul>
                                         <li>
                                             <i class="bi bi-geo-alt fs-1 me-2"></i>
@@ -59,7 +42,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-6 text-muted">
+                            <div class="col-md-6 col-sm-12  text-muted">
                                 <!--begin::Input group-->
                                 <div class="form-floating mb-7 mt-5">
                                     <input type="text" name="Name" class="form-control" id="floatingInput1"
